@@ -7,3 +7,11 @@
 string [] array = {"hello", "world", ":-)", "bye", ";)", "summer"};
 // Согласно условию задачи вводим длину строки меньшую или равную 3м.
 int length_mean = 3;
+// Создаем условие для решения задачи.
+for (int i=0; i<array.Length;i++)
+{
+    if (array[i].Length <= length_mean)
+    {
+        
+    }
+}
