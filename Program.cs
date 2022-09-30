@@ -12,6 +12,8 @@ for (int i=0; i<array.Length;i++)
 {
     if (array[i].Length <= length_mean)
     {
-        
+        // Выводим решение на консоль.
+        Console.WriteLine(array[i]);
     }
 }
+Console.ReadLine();
